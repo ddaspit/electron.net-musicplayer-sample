@@ -38,6 +38,8 @@ namespace MyElectronMusicPlayer
         {
             var options = new BrowserWindowOptions
             {
+                X = 0,
+                Y = 0,
                 WebPreferences = new WebPreferences
                 {
                     WebSecurity = false
